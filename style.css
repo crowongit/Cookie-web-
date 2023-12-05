@@ -1,0 +1,80 @@
+body {
+	/* background-color: blue; */
+}
+
+p {
+	font-size: 1rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	color: #0eb3a9;
+}
+
+h3 {
+	font-size: 1rem;
+	color: #0eb3a9;
+}
+
+/* Image Section */
+.image_section_detail {
+	background-color: #0eb3a9;
+	
+}
+
+/* Market Info */
+.market_info {
+	background-color: #e7eeee;
+	/* opacity: 0.1; */
+	padding-block: 10px;
+	border-radius: 15px;
+}
+.market_info_section {
+	display: flex;
+	padding-inline: 15px;
+	justify-content: space-between;
+	/* justify-content: center; */
+}
+
+.market_info_section_detail {
+	width: 30%;
+}
+
+/* Stock Market Group */
+.stock_market_grid {
+	display: flex;
+	gap: 10px;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.stock_market {
+	display: flex;
+	gap: 10px;
+	width: 48%;
+	align-items: center;
+}
+.stock_market_text {
+	width: 50%;
+}
+
+.stock_market_box {
+	background-color: #d9d9d9;
+	width: 50%;
+	height: 200px;
+}
+
+.stock_market_dot_text {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.stock_market_dot {
+	display: flex;
+	background-color: #0eb3a9;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+}
