@@ -20,13 +20,14 @@ h3 {
 .first_section {
 	/* background-color: black; */
 }
-.third_rounded {
+.rounded {
 	background-color: #0eb3a9;
 	padding: 10px;
 	border-radius: 40px;
 	margin-inline: 20px;
+	margin-block: 15px;
 }
-.third_rounded_inner {
+.rounded_inner {
 	/* margin-top: 20px; */
 	background-color: #0eb3a9;
 	color: white;
