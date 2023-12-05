@@ -16,10 +16,63 @@ h3 {
 	color: #0eb3a9;
 }
 
+/* First section */
+.first_section {
+	/* background-color: black; */
+}
+.third_rounded {
+	background-color: #0eb3a9;
+	padding: 10px;
+	border-radius: 40px;
+	margin-inline: 20px;
+}
+.third_rounded_inner {
+	/* margin-top: 20px; */
+	background-color: #0eb3a9;
+	color: white;
+	border-radius: 40px;
+	padding-block: 10px;
+	padding-inline-start: 100px;
+	padding-inline-end: 20px;
+	border: 2px solid white;
+}
+
+/* Performance section */
+.performance {
+	display: flex;
+	gap: 20px;
+}
+.performance_left {
+	background-color: #a2a0a0;
+	flex: 1;
+	padding: 10px;
+}
+
+.performance_right {
+	background-color: #a2a0a0;
+	flex: 1;
+	padding: 10px;
+}
+.performance_icon_text {
+	display: flex;
+}
+
 /* Image Section */
+.image_section {
+	display: flex;
+	justify-content: space-between;
+}
 .image_section_detail {
 	background-color: #0eb3a9;
-	
+	padding: 10px;
+}
+
+.image_section_text {
+	display: flex;
+	align-items: center;
+}
+.image_section_text_number {
+	font-size: 3rem;
 }
 
 /* Market Info */
@@ -28,6 +81,7 @@ h3 {
 	/* opacity: 0.1; */
 	padding-block: 10px;
 	border-radius: 15px;
+	margin-block: 20px;
 }
 .market_info_section {
 	display: flex;
