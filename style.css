@@ -4,6 +4,7 @@ body {
 
 p {
 	font-size: 0.9rem;
+	font-family: "Inter", sans-serif;
 }
 
 h2 {
@@ -73,7 +74,9 @@ h3 {
 	display: flex;
 }
 .image_section_text_number {
-	font-size: 3rem;
+	font-size: 5.625rem;
+	font-family: "News Cycle", sans-serif;
+	font-weight: bold;
 }
 
 /* Market Info */
