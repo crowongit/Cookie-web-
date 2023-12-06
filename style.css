@@ -29,8 +29,7 @@ h3 {
 .rounded {
 	background-color: #0eb3a9;
 	padding: 5px;
-	border-radius: 40px;
-	margin-inline: 20px;
+	border-radius: 30px;
 	margin-bottom: 10px;
 }
 .rounded_inner {
@@ -53,9 +52,10 @@ h3 {
 	margin-top: -4em;
 	box-shadow: 1px 5px rgba(0, 0, 0, 0.438);
 	position: relative;
-	float: left;
+	/* float: left; */
+	/* left: 10px; */
 	/* right: 20px; */
-	bottom: -40px;
+	/* bottom: -40px; */
 	margin-right: 10px;
 }
 .bell_rounded_inner {
@@ -193,21 +193,36 @@ h3 {
 
 /* Market Info */
 .market_info {
-	background-color: #e7eeee;
+	background-color: rgba(14, 179, 168, 0.11);
 	/* opacity: 0.1; */
-	padding-block: 5px;
+	padding-block: 20px;
 	border-radius: 15px;
-	margin-block: 10px;
+	margin-block: 30px;
 }
 .market_info_section {
 	display: flex;
+	gap: 15px;
 	padding-inline: 15px;
+	padding-block: 25px;
 	justify-content: space-between;
 	/* justify-content: center; */
 }
 
 .market_info_section_detail {
-	width: 30%;
+	/* width: 30%; */
+	flex: 1;
+}
+
+.market_info_market_dot_heading {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-bottom: -20px;
+}
+
+.market_info_image {
+	width: 40px;
+	height: 40px;
 }
 
 /* Stock Market Group */
@@ -216,14 +231,16 @@ h3 {
 	gap: 10px;
 	width: 100%;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .stock_market {
 	display: flex;
 	gap: 10px;
-	width: 48%;
-	align-items: center;
+	width: 49%;
+	align-items: end;
+	/* margin-bottom: 20px; */
 }
 .stock_market_text {
 	width: 50%;
@@ -232,10 +249,10 @@ h3 {
 .stock_market_box {
 	background-color: #d9d9d9;
 	width: 50%;
-	height: 200px;
+	height: 160px;
 }
 
-.stock_market_dot_text {
+.stock_market_dot_heading {
 	display: flex;
 	gap: 10px;
 	align-items: center;
@@ -248,4 +265,8 @@ h3 {
 	height: 20px;
 	width: 20px;
 	border-radius: 50%;
+}
+.stock_market_dot_text {
+	font-size: 0.67rem;
+	margin-top: 15px;
 }
