@@ -35,7 +35,7 @@ h3 {
 .rounded_inner {
 	background-color: #0eb3a9;
 	color: white;
-	border-radius: 40px;
+	border-radius: 30px;
 	border: 2px solid white;
 	padding-inline: 10px;
 }
@@ -54,9 +54,10 @@ h3 {
 	position: relative;
 	/* float: left; */
 	/* left: 10px; */
-	/* right: 20px; */
+	right: 30px;
 	/* bottom: -40px; */
-	margin-right: 10px;
+	margin-right: -20px;
+	/* margin-left: 10px; */
 }
 .bell_rounded_inner {
 	display: flex;
@@ -79,10 +80,11 @@ h3 {
 	justify-content: center;
 	align-items: center;
 	margin-left: -0.5em;
-	margin-top: -4em;
+	margin-top: -3em;
 	box-shadow: 1px 5px rgba(0, 0, 0, 0.438);
 	position: relative;
 	float: right;
+
 	/* left: 700px; */
 	/* right: 50px; */
 }
