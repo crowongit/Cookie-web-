@@ -17,8 +17,13 @@
 		<title>Document</title>
 	</head>
 	<body>
+		<!-- First Page Top display -->
+		<section>
+			<img src="/assets/first-page-top.png" alt="" style="width: 100%" />
+		</section>
+
 		<!-- First section -->
-		<section class="first_section" style="">
+		<section class="first_section">
 			<!-- Top part -->
 			<div class="" style="display: flex; align-items: center">
 				<!-- Big Icon -->
@@ -31,8 +36,8 @@
 							background-color: #0eb3a9;
 							padding: 10px;
 							border-radius: 50%;
-							width: 210px;
-							height: 210px;
+							width: 180px;
+							height: 180px;
 							display: flex;
 							justify-content: center;
 							align-items: center;
@@ -49,13 +54,13 @@
 									padding: 30px;
 									justify-content: center;
 									align-items: center;
-									width: 150px;
-									height: 150px;
+									width: 130px;
+									height: 130px;
 									border: 2px solid white;
 								"
 							>
 								<!-- <div class=""> -->
-								<img src="/assets/top/business.png" alt="" />
+								<img src="/assets/top/business.png" alt="" width="90%" />
 								<!-- </div> -->
 							</div>
 						</div>
@@ -64,7 +69,12 @@
 				<!-- Two rounded sections -->
 				<div class="">
 					<div class="rounded">
-						<div class="rounded_inner" style="padding: 0">
+						<div class="rounded_inner">
+							<div class="bell_rounded">
+								<div class="bell_rounded_inner">
+									<img src="/assets/top/bell-dollar.png" alt="" width="80%" />
+								</div>
+							</div>
 							<p>
 								Apple Inc., commonly known as Apple, is a multinational
 								technology company headquartered in Cupertino, United States.
@@ -79,7 +89,12 @@
 					</div>
 
 					<div class="rounded">
-						<div class="rounded_inner" style="padding: 0px">
+						<div class="rounded_inner">
+							<div class="finance_rounded">
+								<div class="finance_rounded_inner">
+									<img src="/assets/top/finance.png" alt="" width="80%" />
+								</div>
+							</div>
 							<p>
 								We are pleased to present you with an in-depth investment report
 								on {symbol}. This report aims to provide you with valuable
@@ -95,7 +110,17 @@
 
 			<!-- Down part -->
 			<div class="rounded">
-				<div class="rounded_inner">
+				<div
+					class="rounded_inner"
+					style="display: flex; gap: 10px; padding-inline: 0px"
+				>
+					<div class="">
+						<div class="user_rounded">
+							<div class="user_rounded_inner">
+								<img src="/assets/top/user.png" alt="" width="80%" />
+							</div>
+						</div>
+					</div>
 					<p>
 						Apple’s mission is to bring the best user experience to its
 						customers through its innovative products and services. The
@@ -109,13 +134,17 @@
 		<!-- Performances -->
 		<section class="performance">
 			<div class="performance_left">
-				<div class="performance_icon_text">
+				<div class="performance_icon_group">
 					<div class="">
-						<img src="/assets/performance//financial.png" alt="" />
+						<img
+							src="/assets/performance//financial.png"
+							alt=""
+							class="performance_icon"
+						/>
 					</div>
-					<div class="">
+					<div class="performance_text">
 						<h2>Financial Performance</h2>
-						<p>
+						<p c>
 							Apple Inc. (AAPL) has seen tremendous financial success in recent
 							years. In 2023, their total assets were $32.2 trillion, with
 							current assets amounting to $11.2 trillion, current cash of $558.7
@@ -125,9 +154,13 @@
 					</div>
 				</div>
 
-				<div class="performance_icon_text">
+				<div class="performance_icon_group">
 					<div class="">
-						<img src="/assets/performance//key.png" alt="" />
+						<img
+							src="/assets/performance//key.png"
+							alt=""
+							class="performance_icon"
+						/>
 					</div>
 					<div class="">
 						<h2>Key Ratios</h2>
@@ -140,9 +173,13 @@
 					</div>
 				</div>
 
-				<div class="performance_icon_text">
+				<div class="performance_icon_group">
 					<div class="">
-						<img src="/assets/performance/dividends.png" alt="" />
+						<img
+							src="/assets/performance/dividends.png"
+							alt=""
+							class="performance_icon"
+						/>
 					</div>
 					<div class="">
 						<h2>Dividends and Returns</h2>
@@ -155,9 +192,13 @@
 				</div>
 			</div>
 			<div class="performance_right">
-				<div class="performance_icon_text">
+				<div class="performance_icon_group">
 					<div class="">
-						<img src="/assets/performance/market.png" alt="" />
+						<img
+							src="/assets/performance/market.png"
+							alt=""
+							class="performance_icon"
+						/>
 					</div>
 					<div class="">
 						<h2>Market Performance</h2>
@@ -168,9 +209,13 @@
 						</p>
 					</div>
 				</div>
-				<div class="performance_icon_text">
+				<div class="performance_icon_group">
 					<div class="">
-						<img src="/assets/performance/recent.png" alt="" />
+						<img
+							src="/assets/performance/recent.png"
+							alt=""
+							class="performance_icon"
+						/>
 					</div>
 					<div class="">
 						<h2>Recent News and Events</h2>
@@ -184,6 +229,15 @@
 			</div>
 		</section>
 
+		<!-- Second Page Top display -->
+		<section>
+			<img
+				src="/assets/second-page-top.png"
+				alt=""
+				style="width: 100%; margin-bottom: 2px"
+			/>
+		</section>
+
 		<!-- Image Section -->
 		<section class="image_section">
 			<div class="image_section_detail">
@@ -191,8 +245,8 @@
 				<div class="image_section_text">
 					<p class="image_section_text_number" style="color: white">01</p>
 					<div class="">
-						<p style="color: white; font-weight: bold">HEADING 1</p>
-						<p>
+						<p class="image_section_text_heading">HEADING 1</p>
+						<p class="image_section_text_heading-text">
 							We are pleased to present you with an in-depth investment report
 							on {symbol}.
 						</p>
@@ -205,8 +259,8 @@
 				<div class="image_section_text">
 					<p class="image_section_text_number" style="color: white">02</p>
 					<div class="">
-						<p style="color: white; font-weight: bold">HEADING 1</p>
-						<p>
+						<p class="image_section_text_heading">HEADING 2</p>
+						<p class="image_section_text_heading-text">
 							We are pleased to present you with an in-depth investment report
 							on {symbol}.
 						</p>
@@ -219,8 +273,8 @@
 				<div class="image_section_text">
 					<p class="image_section_text_number" style="color: white">03</p>
 					<div class="">
-						<p style="color: white; font-weight: bold">HEADING 1</p>
-						<p>
+						<p class="image_section_text_heading">HEADING 3</p>
+						<p class="image_section_text_heading-text">
 							We are pleased to present you with an in-depth investment report
 							on {symbol}.
 						</p>
