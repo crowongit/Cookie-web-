@@ -123,35 +123,6 @@ h3 {
 	border: 0.92px solid white;
 }
 
-/* Performance section */
-.performance {
-	display: flex;
-	gap: 10px;
-}
-.performance_left {
-	background-color: #1e1e1e0a;
-	flex: 1;
-	padding: 10px;
-	border-radius: 20px;
-}
-
-.performance_right {
-	background-color: #1e1e1e0a;
-	flex: 1;
-	padding: 10px;
-	border-radius: 20px;
-}
-.performance_icon {
-	width: 40px;
-	height: 40px;
-}
-.performance_icon_group {
-	display: flex;
-	gap: 10px;
-	align-items: start;
-	/* justify-content: first baseline; */
-}
-
 /* Image Section */
 .image_section {
 	display: flex;
